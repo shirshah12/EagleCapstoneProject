@@ -44,7 +44,7 @@ Scenario: User add a review to canon EOS 5D item in Desktops tab
 And User click on Canon EOS 5D item
 And User click on write a review link
 And user fill the review information with below information
-#|yourname|yourReview|Rating
+#|yourname|yourReview|Rating 
 #|name|review|Bad or good|
 And User click on Continue Button
 Then User should see a message with 'Thank you for your review. it has been submitted to the webmaster for approval'.
